@@ -35,12 +35,19 @@
     cd devfest-2025-adk-workshop
     ```
 
-2.  **安裝依賴套件**
+2.  **建立並啟用虛擬環境**
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
+    *如果您使用 Windows，請改用 `venv\Scripts\activate`*
+
+3.  **安裝依賴套件**
     ```bash
     pip install -r requirements.txt
     ```
 
-3.  **執行代理**
+4.  **執行代理**
     使用 `adk` 命令列工具來執行代理：
     ```bash
     adk web
