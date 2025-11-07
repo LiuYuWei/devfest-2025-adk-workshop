@@ -2,6 +2,8 @@
 
 這是一個在 Google Devfest 2025 ADK 工作坊中建立的範例專案。它展示了如何使用 Google AI Developer Kit (ADK) 來建立一個可以上傳檔案並透過自然語言查詢檔案內容的 AI 代理。
 
+file search link: https://blog.google/technology/developers/file-search-gemini-api/?linkId=17612251  
+
 ## 關於此專案
 
 這個專案的核心是一個 AI 代理，它整合了 Google 最新的生成式 AI 模型 (`gemini-2.5-flash`) 和檔案搜尋功能。您可以上傳一個或多個檔案（例如 PDF、TXT 等），然後像與真人對話一樣，向代理詢問有關這些檔案內容的問題。
